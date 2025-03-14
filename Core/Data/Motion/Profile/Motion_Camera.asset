@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944e1af18c9f470a9d94c3ed9071a080, type: 3}
+  m_Name: Motion_Camera
+  m_EditorClassIdentifier: 
+  _motionData:
+  - StateType: 1
+    Data:
+    - {fileID: 11400000, guid: efa652659570bea4faafffc330092829, type: 2}
+    - {fileID: 11400000, guid: 6d186fab8e2651e46aa504134b437b6d, type: 2}
+  - StateType: 2
+    Data:
+    - {fileID: 11400000, guid: 35d9c453a3736ef46ac6761127097849, type: 2}

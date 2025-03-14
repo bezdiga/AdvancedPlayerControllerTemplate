@@ -1,0 +1,16 @@
+{
+    "name": "HatchStudio.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aaa013155d724cd4292a1cf5868035fb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

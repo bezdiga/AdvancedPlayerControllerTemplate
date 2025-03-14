@@ -1,0 +1,14 @@
+{
+    "name": "HatchStudios.ToolBox",
+    "rootNamespace": "HatchStudios.ToolBox",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
