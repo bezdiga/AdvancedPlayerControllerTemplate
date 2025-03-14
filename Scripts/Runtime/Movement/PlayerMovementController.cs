@@ -12,6 +12,7 @@ namespace HatchStudios.PlayerController
     public class PlayerMovementController : CharacterBehaviour,IMovementControllerCC
     {
         public float StepCycle { get; private set; }
+        public MovementStateType ActiveStateType => activeState.StateType;
         
         [SerializeField] private CharacterControllerMotor _motor;
         [SerializeField,NotNull] private PlayerMovementInput _inputHandler;
@@ -138,7 +139,6 @@ namespace HatchStudios.PlayerController
             {
                 _distMovedSinceLastCycleEnded -= _currentStepLength;
                 StepCycleEnded?.Invoke();
-                Debug.LogError("EndStepp");
             }
 
             StepCycle = _distMovedSinceLastCycleEnded / _currentStepLength;

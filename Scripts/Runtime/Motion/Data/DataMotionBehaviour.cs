@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using HatchStudios.PlayerController;
+using UnityEngine;
 
 namespace HatchStudio.Motion.Data
 {
@@ -13,6 +14,7 @@ namespace HatchStudio.Motion.Data
             return dataHandler.GetData<DataType>();
         }
         
+
         protected sealed override void OnEnable()
         {
             base.OnEnable();

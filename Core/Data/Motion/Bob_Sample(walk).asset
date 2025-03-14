@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1c3542e6a8b4c14ba496ed7043cbeea, type: 3}
-  m_Name: Bob_Sample
+  m_Name: Bob_Sample(walk)
   m_EditorClassIdentifier: 
   _bobType: 0
   _bobSpeed: 1

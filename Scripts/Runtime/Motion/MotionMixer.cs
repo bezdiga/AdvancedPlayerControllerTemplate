@@ -68,8 +68,7 @@ namespace HatchStudio.Motion
         {
             if (mixedMotion == null)
                 return;
-
-            Debug.LogError("Add Mixer");
+            
             var motionType = mixedMotion.GetType();
             if (!_motionsDict.ContainsKey(motionType))
             {

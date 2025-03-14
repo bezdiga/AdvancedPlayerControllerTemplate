@@ -34,7 +34,6 @@ namespace HatchStudios.CameraController
         
         public void SetLookInput(LookHandlerInputDelegate input)
         {
-            Debug.LogError("Set look input");
             enabled = input != null;
             _input = input;
         }

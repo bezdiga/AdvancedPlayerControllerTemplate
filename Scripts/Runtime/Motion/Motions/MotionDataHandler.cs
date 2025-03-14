@@ -24,6 +24,7 @@ namespace HatchStudio.Motion
             _profile = profile != null ? profile : _profile;
             UpdateAllEntries();
         }
+        
 
 
         public void SetStateType(MovementStateType stateType)

@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8126825079149617403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc693f22a334d139e9a7eda88d569f5, type: 3}
+  m_Name: Run
+  m_EditorClassIdentifier: 
+  _stepLength: 1.8
+  m_forwardSpeed: 5.5
+  m_backSpeed: 3
+  m_sideSpeed: 3
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,6 +35,8 @@ MonoBehaviour:
   - stateAsset: {fileID: 3830341680699513881}
     isEnabled: 1
   - stateAsset: {fileID: 7877130688817003340}
+    isEnabled: 1
+  - stateAsset: {fileID: -8126825079149617403}
     isEnabled: 1
 --- !u!114 &3830341680699513881
 MonoBehaviour:

@@ -60,7 +60,6 @@ namespace HatchStudio.Motion
             if (canUpdateBob)
             {
                 TickBobParam();
-                Debug.LogError("Update Bob " + Data.GetType());
                 // Calculate the position bob.
                 Vector3 posAmplitude = Data.PositionAmplitude;
                 _posBob = new Vector3

@@ -20,3 +20,6 @@ MonoBehaviour:
   - StateType: 2
     Data:
     - {fileID: 11400000, guid: 35d9c453a3736ef46ac6761127097849, type: 2}
+  - StateType: 3
+    Data:
+    - {fileID: 11400000, guid: e3004fc795ba92847ae8dc92ee4b28ea, type: 2}
